@@ -39,7 +39,6 @@ io.on("connection", (socket) => {
       text,
     });
   });
-
   socket.on("disconnect", () => {
     removeUser(socket.id);
   });
